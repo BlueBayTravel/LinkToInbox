@@ -10,6 +10,14 @@ $link = $linkToInbox->createLink('test@live.com', [
 ], true);
 ```
 
+## Installation
+
+Require this package, with Composer, in the root directory of your project.
+
+```
+composer require bluebaytravel/link-to-inbox
+```
+
 ## License
 
 LinkToInbox is licensed under [The MIT License (MIT)](LICENSE).
