@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of LinkToInbox.
+ * This file is part of Link To Inbox.
  *
  * (c) Blue Bay Travel <developers@bluebaytravel.co.uk>
  *
