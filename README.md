@@ -10,6 +10,16 @@ $link = $linkToInbox->createLink('test@live.com', [
 ], true);
 ```
 
+With custom text:
+
+```php
+$linkToInbox = new LinkToInbox();
+$link = $linkToInbox->createLink('test@live.com', [
+    'subject' => 'Welcome to Acme Service',
+    'sender'  => 'hello@acme-service.com',
+], true, 'View in %s');
+```
+
 ## Installation
 
 Require this package, with Composer, in the root directory of your project.
